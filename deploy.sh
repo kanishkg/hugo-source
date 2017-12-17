@@ -9,6 +9,7 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 cp -r public/ ../kanishkg.github.io/
 # Add changes to git.
 cd ../kanishkg.github.io/
+git pull
 git add .
 
 # Commit changes.

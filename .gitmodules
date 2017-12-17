@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:kanishkg/kanishkg.github.io.git
+	branch = master

@@ -7,6 +7,9 @@ rm -rf public/
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
+git add *
+git commit -m "update"
+git push
 cp -r public/ ../kanishkg.github.io/
 # Add changes to git.
 cd ../kanishkg.github.io/
